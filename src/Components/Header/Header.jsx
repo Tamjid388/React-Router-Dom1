@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { Link, NavLink } from 'react-router-dom'
 
 export default function Header() {
   return (
@@ -27,6 +27,15 @@ export default function Header() {
           <Link to="/users" className="text-white hover:text-blue-200">
             Users
           </Link>
+       
+        </li>
+    
+        <li>
+          <NavLink
+         
+          to="/users" className="text-white hover:text-blue-200">
+            Users
+          </NavLink>
        
         </li>
         <li>
